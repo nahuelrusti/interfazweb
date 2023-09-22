@@ -1,6 +1,13 @@
+.fuente1, .fuente2{
+    display: inline;
+    color: rgb(62, 145, 148);
+    letter-spacing: 3px;
+}
+
 .fuente1 {
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
+ 
 }
 
 .fuente2 {
@@ -8,9 +15,23 @@
     font-size: 100px;
 }
 
-.fuente1, .fuente2{
-    display: inline
+a:hover, a:visited{
+    color:blueviolet
 }
+
+p{
+   color:rgba(0, 0, 0, 0.87);
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1, h2, h3, h4{
+    color: rgba(196, 73, 24, 0.836);
+}
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');

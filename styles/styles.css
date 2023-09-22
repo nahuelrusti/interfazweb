@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 41px;
+}
+
 .fuente1, .fuente2{
     display: inline;
     color: rgb(62, 145, 148);
@@ -15,20 +24,119 @@
     font-size: 100px;
 }
 
+body{
+    background-color: antiquewhite;
+    color: #333;
+    font: 400;
+    font-size: 24;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+nav h3{
+    margin-right: auto;
+}
+
 a:hover, a:visited{
-    color:blueviolet
+    color:blueviolet;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+aside#iconos img{
+    width: 30px;
+    height: auto;
 }
 
 p{
    color:rgba(0, 0, 0, 0.87);
 }
 
-body{
-    background-color: antiquewhite;
-}
-
 h1, h2, h3, h4{
     color: rgba(196, 73, 24, 0.836);
+}
+
+h4{
+    margin: 0;
+    font-size: 41px;
+    color: white;
+    background-color: black;
+    line-height: 80px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h2{
+    font-weight: none;
+}
+
+section#parrafowwwapas{
+    overflow: hidden;
+}
+
+section#pwtexto{
+    text-align: left;
+    width: 45%;
+    float: left
+}
+
+.pwfoto{
+    float:right;
+    width: 30%;
+}
+
+section#parrafosjuntos{
+    overflow: hidden; 
+}
+
+section#parrafosjuntos h3{
+    background-color: rgb(250, 210, 150);
+    font-size: 20px;
+}
+
+section#parrafoizq {
+    width: 45%;
+    float: left;
+    text-align: left;  
+}
+
+section#parrafoder {
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+
+section#servicios{
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+    width: 45%;
+    text-align: left;
+}
+
+div#listaservicios{
+    list-style-position: inside;
+}
+
+footer, main, header, aside {
+    width: 100%;
+}
+
+footer{
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+    height: 100px;
+    padding: 1px;
+    background-color: #fced213a;
+}
+
+footer h1{
+    font-size: 33px;
 }
 
 

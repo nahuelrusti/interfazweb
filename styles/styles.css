@@ -5,7 +5,9 @@
 header h1{
     font-weight: 700;
     font-size: 41px;
+    width: 50%;
 }
+
 
 .fuente1, .fuente2{
     display: inline;
@@ -49,8 +51,14 @@ aside#iconos img{
     height: auto;
 }
 
+aside#iconos div{
+    display: inline;
+}
+
 p{
    color:rgba(0, 0, 0, 0.87);
+   font-size: 20px;
+   font-weight: 400;
 }
 
 h1, h2, h3, h4{
@@ -58,12 +66,12 @@ h1, h2, h3, h4{
 }
 
 h4{
-    margin: 0;
     font-size: 41px;
     color: white;
     background-color: black;
     line-height: 80px;
     padding: 10px;
+    display: inline-block;
 }
 
 h3{
@@ -76,17 +84,19 @@ h2{
 
 section#parrafowwwapas{
     overflow: hidden;
+    padding-bottom: 60px;
 }
 
 section#pwtexto{
     text-align: left;
     width: 45%;
-    float: left
+    float: left;
 }
 
 .pwfoto{
     float:right;
     width: 30%;
+    margin-right: 8%;
 }
 
 section#parrafosjuntos{
@@ -118,6 +128,12 @@ section#servicios{
     text-align: left;
 }
 
+ol{
+    font-size: 20px;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
 div#listaservicios{
     list-style-position: inside;
 }
@@ -127,10 +143,9 @@ footer, main, header, aside {
 }
 
 footer{
-    margin-left: 20px;
     color: #7A7A7A;
     text-decoration: none;
-    height: 100px;
+    height: 120px;
     padding: 1px;
     background-color: #fced213a;
 }
@@ -139,9 +154,48 @@ footer h1{
     font-size: 33px;
 }
 
+footer h1, footer nav{
+    margin-left: 20px;
+}
+
+/* Espacio para PHP
+*/
+
+
 label{
     display: block;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgba(255, 78, 78, 0.813);
+}
+
+input{
+    height: 40px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+button{
+    height: 40px;
+}
+
+input, textarea, button{
+    width: 40%;
+}
+
+form{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+div{
+    /* display:flex */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');

@@ -16,11 +16,9 @@
             <p class="fuente1">somos</p>
             <p class="fuente2">wwwapas</p>
         </h1>
-
     </header>
 
     <nav>
-        <h3>wwwapas</h3>
         <ol>
             <a href="index.html">inicio</a>
             <a href="#servicios">servicios</a>
@@ -29,10 +27,21 @@
     </nav>
 
     <aside id="iconos">
-        <a href="https://www.instagram.com"><img src="images/instagram-icon.png" alt="instagram-icon"></a>
-        <a href="https://www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
-        <a href="https://dribbble.com"><img src="images/dribbble-icon.png" alt="dribbble-icon"></a>
-        <a href="https://www.linkedin.com"><img src="images/linkedin-icon.png" alt="linkedin-icon"></a>
+        <div>
+            <a href="https://www.instagram.com"><img src="images/instagram-icon.png" alt="instagram-icon"></a>
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
+        </div>
+
+        <div>
+            <a href="https://dribbble.com"><img src="images/dribbble-icon.png" alt="dribbble-icon"></a>
+        </div>
+
+        <div>
+            <a href="https://www.linkedin.com"><img src="images/linkedin-icon.png" alt="linkedin-icon"></a>
+        </div>
     </aside>
 
     <main>
@@ -45,7 +54,7 @@
                         online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y
                         duraderas con tus clientes!</strong></p>
                 </section>
-                <img class="pwfoto" src="/images/foto.JPG" alt="imagen-wapas">
+                <img class="pwfoto" src="/images/foto.png" alt="imagen-wapas">
             </section>
 
             <section id="parrafosjuntos">
@@ -55,7 +64,7 @@
                         copywriters, las generadoras de leads, las diseñadoras, las
                         estrategas en marketing digital, las potenciadoras de ventas,
                         el posicionamiento de tu marca <strong>¡Somos el complemento que
-                            necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
+                        necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
                 </section>
 
                 <section id="parrafoder">
@@ -85,9 +94,33 @@
             </section>
 
             <section>
-                <h4>¿Querés que nos contactemos con vos?</h4>
+                <h4>¿Querés que nos</h4>
+                <h4>contactemos con vos?</h4>
                 <p>Envianos tu consulta >></p>
             </section>
+
+            <form action="procesar.php" method="post">
+
+                <label>Nombre <span>*</span><br>
+                <input type="text" name="nombre" 
+                placeholder="Leonel Gustavo" required>
+                </label>
+
+                <label>Email <span>*</span><br>
+                <input type="email" name="email" 
+                placeholder="gustavleo@gmail.com" required>
+                </label>
+
+                <label>Mensaje <span>*</span><br>
+                <textarea required name="comentarios"></textarea>
+                </label>
+                
+                <div>
+                <button>Enviar Consulta</button><br>
+                <input type="reset" value="Borrar">
+                </div>
+
+            </form>
 
         </article>
     </main>

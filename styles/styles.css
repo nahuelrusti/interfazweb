@@ -71,7 +71,10 @@ h4{
     background-color: black;
     line-height: 80px;
     padding: 10px;
-    display: inline-block;
+    display: inline;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    color: #e2e2e2;
 }
 
 h3{
@@ -91,6 +94,7 @@ section#pwtexto{
     text-align: left;
     width: 45%;
     float: left;
+    margin-left: 25px;
 }
 
 .pwfoto{
@@ -112,17 +116,19 @@ section#parrafoizq {
     width: 45%;
     float: left;
     text-align: left;  
+    margin-left: 25px;
 }
 
 section#parrafoder {
     width: 45%;
     float: right;
     text-align: left;
+    margin-right: 25px;
 }
 
 section#servicios{
     text-align: right;
-    margin-right: 0;
+    margin-right: 25px;
     margin-left: auto;
     width: 45%;
     text-align: left;
@@ -136,6 +142,17 @@ ol{
 
 div#listaservicios{
     list-style-position: inside;
+}
+
+h3{
+    background-color: rgb(250, 210, 150);
+}
+
+#listagrande{
+    background-color: yellow;
+    font-weight: 700;
+    color: black;
+    font-size: 60px;
 }
 
 footer, main, header, aside {
@@ -164,8 +181,10 @@ footer h1, footer nav{
 
 label{
     display: block;
-    /* margin-top: 10px; */
     margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 span{
@@ -194,8 +213,41 @@ form{
     padding-bottom: 20px;
 }
 
-div{
-    /* display:flex */
+/*Parte 4.4
+*/
+
+.item{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 27);
+    color: black;
+}
+
+.encolumnar{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1.5px solid gray;
+}
+
+#imagen{
+    width: 30%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+button{
+    background-color: rgb(20, 20, 20);
+    color: #e2e2e2;
+    display: inline;
+    width: 10%;
+}
+
+#botones input{
+    background-color: rgb(20, 20, 20);
+    color: #e2e2e2;
+    display: inline;
+    width: 10%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');

@@ -11,18 +11,20 @@
 
 <body>
 
-    <header>
-        <h1>
-            <p class="fuente1">somos</p>
-            <p class="fuente2">wwwapas</p>
-        </h1>
+    <header class="encolumnar">
+        <section id="presentacion">
+            <h1>
+                <p class="fuente1">somos</p>
+                <p class="fuente2">wwwapas</p>
+            </h1>
+        </section>
     </header>
 
     <nav>
         <ol>
             <a href="index.html">inicio</a>
             <a href="#servicios">servicios</a>
-            <a href="contactos.html">contactos</a>
+            <a href="#contactos">contactos</a>
         </ol>
     </nav>
 
@@ -46,16 +48,18 @@
 
     <main>
         <article>
-            <section id="parrafowwwapas">
-                <section id="pwtexto">
-                    <h2>Somos wwwapas</h2>
-                    <h3>Social media managers | creadoras de contenido</h3>
-                    <p>Nos encargamos de construir, gestionar y administrar la comunidad
-                        online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y
-                        duraderas con tus clientes!</strong></p>
+            <div class="encolumnar">
+                <section id="parrafowwwapas">
+                    <section id="pwtexto">
+                        <h2>Somos wwwapas</h2>
+                        <h3>Social media managers | creadoras de contenido</h3>
+                        <p>Nos encargamos de construir, gestionar y administrar la comunidad
+                            online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y
+                            duraderas con tus clientes!</strong></p>
+                    </section>
+                    <img class="pwfoto" src="/images/foto.png" alt="imagen-wapas">
                 </section>
-                <img class="pwfoto" src="/images/foto.png" alt="imagen-wapas">
-            </section>
+            </div>
 
             <section id="parrafosjuntos">
                 <section id="parrafoizq">
@@ -77,47 +81,53 @@
                 </section>
             </section>
 
-            <section id="servicios"> 
-                <div id="listaservicios">
-                    <h3>Servicios</h3>
-                    <ol> 
-                        <li>Análisis de perfil (Benchmarking)</li>
-                        <li>Revisión y activación de canales</li>
-                        <li>Gestión, creación y diseño de contenido</li>
-                        <li>Respuestas a mensajes y consultas</li>
-                        <li>Segmentación de promociones según el público objetivo</li>
-                        <li>la pauta publicitaria</li>
-                        <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-                        <li>¡Empezamos a comunicar!</li> 
-                    </ol>
-                </div>
-            </section>
+            <div class="encolumnar">
+                
+                <section> <img id="imagen" src="/images/img-servicios.png" alt="imagen-servicios"></section>
+                
+                <section id="servicios"> 
+                    <div id="listaservicios">
+                        <h3>Servicios</h3>
+                        <ol> 
+                            <li>Análisis de perfil (Benchmarking)</li>
+                            <li>Revisión y activación de canales</li>
+                            <li>Gestión, creación y diseño de contenido</li>
+                            <li>Respuestas a mensajes y consultas</li>
+                            <li>Segmentación de promociones según el público objetivo la pauta publicitaria</li>
+                            <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+                            <li id="listagrande">¡Empezamos a comunicar!</li> 
+                        </ol>
+                    </div>
+                </section>
+            </div>
 
             <section>
-                <h4>¿Querés que nos</h4>
+                <h4>¿Querés que nos</h4> <br>
                 <h4>contactemos con vos?</h4>
-                <p>Envianos tu consulta >></p>
+                <p class="item">Envianos tu consulta >></p>
             </section>
 
-            <form action="procesar.php" method="post">
+            <form action="procesar.php" method="post" id="contactos">
 
                 <label>Nombre <span>*</span><br>
-                <input type="text" name="nombre" 
-                placeholder="Leonel Gustavo" required>
+                    <input type="text" name="nombre" 
+                    placeholder="Leonel Gustavo" required>
                 </label>
 
                 <label>Email <span>*</span><br>
-                <input type="email" name="email" 
-                placeholder="gustavleo@gmail.com" required>
+                    <input type="email" name="email" 
+                    placeholder="gustavleo@gmail.com" required>
                 </label>
 
                 <label>Mensaje <span>*</span><br>
-                <textarea required name="comentarios"></textarea>
+                    <textarea name="comentarios" required></textarea>
                 </label>
                 
-                <div>
-                <button>Enviar Consulta</button><br>
-                <input type="reset" value="Borrar">
+                <div id="botones">
+                    <label>
+                        <button>Enviar Consulta</button>
+                        <input type="reset" value="Borrar">
+                    </label>
                 </div>
 
             </form>

@@ -11,6 +11,14 @@
 
 <body>
 
+    <nav>
+        <ol>
+            <a href="index.html">inicio</a>
+            <a href="#servicios">servicios</a>
+            <a href="#contactos">contactos</a>
+        </ol>
+    </nav>
+
     <header class="encolumnar">
         <section id="presentacion">
             <h1>
@@ -19,14 +27,6 @@
             </h1>
         </section>
     </header>
-
-    <nav>
-        <ol>
-            <a href="index.html">inicio</a>
-            <a href="#servicios">servicios</a>
-            <a href="#contactos">contactos</a>
-        </ol>
-    </nav>
 
     <aside id="iconos">
         <div>
@@ -107,7 +107,7 @@
                 <p class="item">Envianos tu consulta >></p>
             </section>
 
-            <form action="procesar.php" method="post" id="contactos">
+            <form action="scripts/procesar.php" method="post" id="contactos">
 
                 <label>Nombre <span>*</span><br>
                     <input type="text" name="nombre" 
@@ -137,9 +137,9 @@
 
     <footer>
         <h1>wwwapas</h1>
-        <nav>
+        <div>
             <a href="mailto: wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a>
-        </nav>
+        </div>
     </footer>
 
 </body>

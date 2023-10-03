@@ -39,6 +39,13 @@ nav h3{
     margin-right: auto;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
 a:hover, a:visited{
     color:blueviolet;
     text-decoration: underline;
@@ -46,12 +53,12 @@ a:hover, a:visited{
     padding: 10px;
 }
 
-aside#iconos img{
+#iconos img{
     width: 30px;
     height: auto;
 }
 
-aside#iconos div{
+#iconos div{
     display: inline;
 }
 
@@ -85,12 +92,12 @@ h2{
     font-weight: none;
 }
 
-section#parrafowwwapas{
+#parrafowwwapas{
     overflow: hidden;
     padding-bottom: 60px;
 }
 
-section#pwtexto{
+#pwtexto{
     text-align: left;
     width: 45%;
     float: left;
@@ -103,28 +110,32 @@ section#pwtexto{
     margin-right: 8%;
 }
 
-section#parrafosjuntos{
+#parrafosjuntos{
     overflow: hidden; 
 }
 
-section#parrafosjuntos h3{
+#parrafosjuntos h3{
     background-color: rgb(250, 210, 150);
     font-size: 20px;
 }
 
-section#parrafoizq {
+#parrafoizq {
     width: 45%;
     float: left;
     text-align: left;  
     margin-left: 25px;
 }
 
-section#parrafoder {
+#parrafoder {
     width: 45%;
     float: right;
     text-align: left;
     margin-right: 25px;
 }
+
+main {display: flex; justify-content: space-between;}
+#parrafoizq{}
+#parrafoder{}
 
 section#servicios{
     text-align: right;
@@ -140,7 +151,7 @@ ol{
     list-style-position: inside;
 }
 
-div#listaservicios{
+#listaservicios{
     list-style-position: inside;
 }
 

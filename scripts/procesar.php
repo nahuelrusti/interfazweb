@@ -12,9 +12,9 @@ $message = "
 <title>HTML</title>
 </head>
 <body>
-<h1>Información del formulario</h1>
-<p>Nombre: $nombre </p>
-<p>Email: $email </p>
+<h1>Información del formulario</h1><br>
+<p>Nombre: $nombre </p><br>
+<p>Email: $email </p><br>
 <p>Comentarios: $comentarios </p>
 </body>
 </html>";
